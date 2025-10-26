@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de Conscientização em Segurança</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>🛡️ Central de Conscientização em Segurança</h1>
+        <nav>
+            <ul>
+                <li><a href="#introducao">O que é Cybersecurity?</a></li>
+                <li><a href="#phishing">Phishing</a></li>
+                <li><a href="#senhas">Senhas Seguras</a></li>
+                <li><a href="#quiz">Teste seu Conhecimento</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="introducao" class="card">
+            <h2>O que é Cibersegurança?</h2>
+            <p>Cibersegurança, ou segurança da informação, é a prática de proteger sistemas, redes e programas de ataques digitais. Esses ataques geralmente visam acessar, alterar ou destruir informações sensíveis, extorquir dinheiro de usuários ou interromper processos de negócios.</p>
+            <p>Neste portal, você aprenderá os conceitos fundamentais para se proteger no mundo digital.</p>
+        </section>
+
+        <section id="phishing" class="card">
+            <h2>Cuidado com o Phishing!</h2>
+            <img src="https://images.pexels.com/photos/6963944/pexels-photo-6963944.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ilustração de um teclado com uma mensagem de alerta de phishing, representando um ataque cibernético." class="section-image">
+            <p><strong>Phishing</strong> é uma das ameaças mais comuns. É uma técnica onde criminosos tentam te enganar para que você revele informações pessoais, como senhas e números de cartão de crédito, fingindo ser uma entidade confiável (como um banco ou uma rede social).</p>
+            <h3>Como se proteger:</h3>
+            <ul>
+                <li><strong>Verifique o remetente:</strong> Sempre confira o endereço de e-mail. Nomes podem ser falsificados.</li>
+                <li><strong>Não clique em links suspeitos:</strong> Passe o mouse sobre o link para ver o endereço real antes de clicar.</li>
+                <li><strong>Procure por erros:</strong> E-mails de phishing frequentemente contêm erros de gramática e ortografia.</li>
+                <li><strong>Desconfie de urgência:</strong> Mensagens que dizem "sua conta será bloqueada" ou "ação imediata necessária" são sinais de alerta.</li>
+            </ul>
+        </section>
+
+        <section id="senhas" class="card">
+            <h2>Crie Senhas Fortes e Únicas</h2>
+            <p>Sua senha é a primeira linha de defesa. Uma senha fraca é um convite para invasores. Siga estas dicas para criar senhas robustas:</p>
+            <ul>
+                <li><strong>Comprimento é chave:</strong> Use senhas com pelo menos 12 caracteres.</li>
+                <li><strong>Misture tudo:</strong> Combine letras maiúsculas, minúsculas, números e símbolos (ex: `!@#$%^&*`).</li>
+                <li><strong>Evite o óbvio:</strong> Não use informações pessoais como datas de aniversário, nomes de pets ou sequências como "123456" ou "senha".</li>
+                <li><strong>Uma senha por conta:</strong> Nunca reutilize a mesma senha em diferentes sites. Se um vazar, todos os outros estarão em risco.</li>
+                <li><strong>Considere um gerenciador de senhas:</strong> Ferramentas como Bitwarden, 1Password ou KeePass ajudam a criar e armazenar senhas complexas com segurança.</li>
+                <li><strong>Ative a Autenticação de Dois Fatores (2FA):</strong> Sempre que possível, ative o 2FA. Ele adiciona uma camada extra de segurança, exigindo um código do seu celular além da senha.</li>
+            </ul>
+        </section>
+
+        <section id="quiz" class="card">
+            <h2>Teste seu Conhecimento</h2>
+            <p>Responda às perguntas abaixo e veja o quanto você aprendeu sobre segurança digital!</p>
+            <div id="quiz-container">
+                <div id="question-area">
+                    <h3 id="question-text"></h3>
+                    <div id="options-container"></div>
+                </div>
+                <button id="next-btn">Próxima Pergunta</button>
+                <div id="result-area"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Central de Conscientização em Segurança. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
