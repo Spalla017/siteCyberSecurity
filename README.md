@@ -44,18 +44,3 @@ Como este é um projeto front-end puro, não há necessidade de um servidor ou d
 3.  **Abra o arquivo `index.html` no seu navegador de preferência.**
 
 E pronto\! O site estará funcionando localmente.
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://www.google.com/search?q=LICENSE) para mais detalhes.
-
------
-
-**Como usar este README:**
-
-1.  **Crie o arquivo:** Na pasta do seu projeto, crie um novo arquivo chamado `README.md`.
-2.  **Copie e Cole:** Copie todo o texto acima e cole no arquivo `README.md`.
-3.  **Personalize:**
-      * Altere o link do `git clone` para o URL do seu repositório real.
-      * Tire um screenshot do seu site, faça o upload (recomendo o [Imgur](https://imgur.com/)) e substitua o link da imagem na seção "Screenshot".
-4.  **Envie para o GitHub:** Adicione, comite e envie o `README.md` para o seu repositório. O GitHub irá automaticamente exibi-lo na página principal do projeto.
